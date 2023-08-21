@@ -601,8 +601,6 @@ do -- Mass Update -------------------------------
 		if IsValid(Phys) then
 			Ent.ACF.Mass      = Mass
 			Ent.ACF.LegalMass = Mass
-
-			Phys:SetMass(Ent.ACF.LegalMass)
 		end
 	end
 
